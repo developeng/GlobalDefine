@@ -51,6 +51,8 @@
 		57C0C1252009A2B6002A5E34 /* DPGlobalDefineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPGlobalDefineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C0C1292009A2B6002A5E34 /* DPGlobalDefineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPGlobalDefineUITests.m; sourceTree = "<group>"; };
 		57C0C12B2009A2B6002A5E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C0C1382009A35B002A5E34 /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		57C0C1392009A3AD002A5E34 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		57C0C1042009A2B6002A5E34 /* DPGlobalDefine */ = {
 			isa = PBXGroup;
 			children = (
+				57C0C1372009A328002A5E34 /* Macro */,
 				57C0C1052009A2B6002A5E34 /* AppDelegate.h */,
 				57C0C1062009A2B6002A5E34 /* AppDelegate.m */,
 				57C0C1082009A2B6002A5E34 /* ViewController.h */,
@@ -130,6 +133,15 @@
 				57C0C12B2009A2B6002A5E34 /* Info.plist */,
 			);
 			path = DPGlobalDefineUITests;
+			sourceTree = "<group>";
+		};
+		57C0C1372009A328002A5E34 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				57C0C1382009A35B002A5E34 /* AppMacro.h */,
+				57C0C1392009A3AD002A5E34 /* UtilsMacro.h */,
+			);
+			path = Macro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
